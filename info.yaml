@@ -1,7 +1,7 @@
---- 
+---
 # TinyTapeout project information
 project:
-  wokwi_id:    357464855584307201 # If using wokwi, set this to your project's ID
+  wokwi_id:    347140425276981843 # If using wokwi, set this to your project's ID
 #  source_files:        # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. Source files must be in ./src
 #    - counter.v
 #    - decoder.v
@@ -14,7 +14,7 @@ project:
 # Here is an example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 #
 # This info will be automatically collected and used to make a datasheet for the chip.
-documentation: 
+documentation:
   author:       "Matt Venn"                     # Your name
   title:        "Test Inverter Project"         # Project title
   language:     "wokwi"                         # other examples include Verilog, Amaranth, VHDL, etc
@@ -29,7 +29,7 @@ documentation:
       Setting the input switch to on should turn the corresponding LED off.
 
 # A description of what the inputs do
-  inputs:               
+  inputs:
     - a
     - b
     - c
